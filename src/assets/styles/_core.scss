@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #008c44;
+  --color-secondary: #e39717;
+  --color-warning: #d73631;
+  --white: #fff;
+  --black: #000;
+  --dark: #333;
+  --gray-light: #f1f3f2;
+}
+
+
+$color-primary: var(--color-primary);
+$color-secondary: var(--color-secondary);
+$color-warning: var(--color-warning);
+$white: var(--white);
+$black: var(--black);
+$dark: var(--dark);
+$gray-light: var(--gray-light)

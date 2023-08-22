@@ -1,0 +1,29 @@
+
+<nav class="nav">
+  <div class="nav__logo">
+    <img class="nav__logo-icon" src="assets/images/ocb-logo.svg" alt="">
+  </div>
+
+  <ul class="nav__list" tooltipOverlap #target="tooltipOverlap">
+    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+      <a class="nav__linked" href="#">Cá nhân</a>
+    </li>
+    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+      <a class="nav__linked" href="#">Doanh nghiệp</a>
+    </li>
+    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+      <a class="nav__linked" href="#">Ngân hàng ưu tiên</a>
+    </li>
+    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+      <a class="nav__linked" href="#">Nhà đầu tư</a>
+    </li>
+  </ul>
+
+  <div class="nav__register">
+    <img class="nav__register-icon" src="assets/images/person-register.svg" alt="">
+  </div>
+
+  <button>Unlock</button>
+  <button>Đăng nhập OCB OMNI</button>
+
+</nav>

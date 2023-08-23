@@ -5,16 +5,16 @@
   </div>
 
   <ul class="nav__list" tooltipOverlap #target="tooltipOverlap">
-    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+    <li class="nav__item" [tooltipTarget]="tooltip" [tooltipOverlap]="target">
       <a class="nav__linked" href="#">Cá nhân</a>
     </li>
-    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+    <li class="nav__item" [tooltipTarget]="tooltip" [tooltipOverlap]="target">
       <a class="nav__linked" href="#">Doanh nghiệp</a>
     </li>
-    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+    <li class="nav__item" [tooltipTarget]="tooltip" [tooltipOverlap]="target">
       <a class="nav__linked" href="#">Ngân hàng ưu tiên</a>
     </li>
-    <li class="nav__item" tooltipTarget [tooltipOverlap]="target">
+    <li class="nav__item" [tooltipTarget]="tooltip" [tooltipOverlap]="target">
       <a class="nav__linked" href="#">Nhà đầu tư</a>
     </li>
   </ul>
@@ -27,3 +27,8 @@
   <button>Đăng nhập OCB OMNI</button>
 
 </nav>
+
+
+<app-tooltip #tooltip>
+    <h3 style="color: red;">Hello world tooltip</h3>
+</app-tooltip>
